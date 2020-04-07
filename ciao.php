@@ -1,1 +1,3 @@
-<?php echo md5("ciao"); ?>
+<?php echo md5("ciao"); 
+	echo"ciao";
+?>
