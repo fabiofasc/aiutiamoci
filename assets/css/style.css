@@ -151,7 +151,7 @@ a,
 
 /* Sections */
 .navbar-custom + .main {
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .main {
@@ -163,7 +163,7 @@ a,
 .module,
 .module-small {
   position: relative;
-  padding: 90px 0;
+  padding: 45px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -1303,7 +1303,7 @@ General Styles - Owlcarousel
 .navbar-custom .dropdown-menu > li > a:focus,
 .navbar-custom .dropdown-menu > li > a:hover {
   background: none;
-  color: #fff;
+  color: grey;
 }
 
 .navbar-custom .dropdown-menu > li > a:hover {

@@ -66,253 +66,234 @@
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a href="index_shop.html"> <b>Home</b></a>
+               <li class="dropdown"><a href="index_shop.html"> <b>Home</b></a>
+                <li class="dropdown"><a href="registrati.html"> <b>Registrati</b></a>
+                  <li class="dropdown"><a href="cosafacciamo.html"> <b>Cosa Facciamo</b></a>
             </li>
-             <li class="dropdown">
-                <a href="#"><b>REGISTRATI</b></a>
-              </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="main">
-      <section data-stellar-background-ratio="0.5">
+      <section class="module">
         <div class="container">
           <div class="row">
-            
-            <div class="col-md-6 col-sm-6">
-              
-              <div class="tab-content">
-                <div class="tab-pane active" role="tabpanel">
-                  <div class="tab-pane-item">
-                    
-                    <div id="mainLogin" class="col-sm-5">
-                      <h4 class="font-alt">ACCEDI</h4>
-                      <div style="display: flex;">
-                        <input checked onclick="switchLog(1)" type="radio" id="sel1" name="sel2">
-                        <label for="sel1" style="margin-right: 20px">Dona-Ricevi</label><br>
-                        <input onclick="switchLog(0)" type="radio" id="sel2" name="sel2">
-                        <label for="sel2">Ente Benefico</label><br>
-                      </div>
-                      <hr class="divider-w mb-10">
-                      <div id="userLog">
-                        <form class="form" action="php/userLogin.php" method="post">
-                          <div class="form-group">
-                            <input class="form-control" id="mail" type="email" name="mail" placeholder="Mail" required/>
-                          </div>
-                          <div class="form-group">
-                            <input class="form-control" id="password" type="password" name="password" placeholder="Password" required/>
-                          </div>
-                          <div class="form-group">
-                            <button class="btn btn-round btn-b" type="submit">Login</button>
-                          </div>
-                          <div class="form-group"><a onclick="forgotPassword()">Forgot Password?</a></div>
-                        </form>
-                      </div>
-                      <div id="sellerLog" style="display: none;">
-                        <form class="form" action="php/sellerLogin.php" method="post">
-                          <div class="form-group">
-                            <input class="form-control" id="mail" type="email" name="mail" placeholder="Mail" required/>
-                          </div>
-                          <div class="form-group">
-                            <input class="form-control" id="password" type="password" name="password" placeholder="Password" required/>
-                          </div>
-                          <div class="form-group">
-                            <button class="btn btn-round btn-b" type="submit">Login</button>
-                          </div>
-                          <div class="form-group"><a onclick="forgotPassword()">Forgot Password?</a></div>
-                        </form>
-                      </div>
-                    </div>
+          
+            <div id="mainLogin" class="col-sm-5">
+              <h4 class="font-alt">ACCEDI</h4>
+              <div style="display: flex;">
+                <input checked onclick="switchLog(1)" type="radio" id="sel1" name="sel2">
+                <label for="sel1" style="margin-right: 20px">Dona-Ricevi</label><br>
+                <input onclick="switchLog(0)" type="radio" id="sel2" name="sel2">
+                <label for="sel2">Ente Benefico</label><br>
+              </div>
+              <hr class="divider-w mb-10">
+              <div id="userLog">
+                <form class="form" action="php/userLogin.php" method="post">
+                  <div class="form-group">
+                    <input class="form-control" id="mail" type="email" name="mail" placeholder="Mail" required/>
                   </div>
-                </div>
-                
+                  <div class="form-group">
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Password" required/>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-round btn-b" type="submit">ACCEDI</button>
+                  </div>
+                  <div class="form-group"><a onclick="forgotPassword()">Password Dimenticata?</a></div>
+                </form>
+              </div>
+              <div id="sellerLog" style="display: none;">
+                <form class="form" action="php/sellerLogin.php" method="post">
+                  <div class="form-group">
+                    <input class="form-control" id="mail" type="email" name="mail" placeholder="Mail" required/>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Password" required/>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-round btn-b" type="submit">ACCEDI</button>
+                  </div>
+                  <div class="form-group"><a onclick="forgotPassword()">Password Dimenticata?</a></div>
+                </form>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="slidershow middle">
-                
-                <img src="assets\images\shop\omini.png">
-              </div>
-              
-            </div>
-          </div>
+           
         </div>
       </section>
-      
-      <!--- FOOTER --->
-      <div class="module-small bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">COSA FACCIAMO</h5>
-                <p> Il nostro scopo è quello di avvicinare famiglie che vogliono donare con famiglie in difficoltà, magari residenti nello stesso comune e/o in una zona circostanti, e facilitarle nel mettersi in contatto diretto e senza alcun tipo di intermediazione. </p>
-                
-                
+    </div>
+    <!--- FOOTER --->
+    <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">COSA FACCIAMO</h5>
+                  <p> Il nostro scopo è quello di avvicinare famiglie che vogliono donare con famiglie in difficoltà, magari residenti nello stesso comune e/o in una zona circostanti, e facilitarle nel mettersi in contatto diretto e senza alcun tipo di intermediazione. </p>
+                 
+                  
+                </div>
               </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">DONA</h5>
-                <p> Tu che vuoi aiutare, inserisci nel tuo paniere i prodotti che sei disposto a donare, così da informare chi invece è in cerca e permettergli di contattarti per un ritiro diretto. </p>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">DONA</h5>
+                  <p> Tu che vuoi aiutare, inserisci nel tuo paniere i prodotti che sei disposto a donare, così da informare chi invece è in cerca e permettergli di contattarti per un ritiro diretto. </p>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">RICEVI</h5>
-                <p> Tu che vuoi un aiuto, puoi visualizzare i panieri delle famiglie più vicine a te, con il dettaglio dei beni disponibili, poter eventualmente scegliere quello più utile alle tue necessità, e metterti quindi in contatto con il donatore per concordare il ritiro diretto dei beni stessi.</p>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">RICEVI</h5>
+                  <p> Tu che vuoi un aiuto, puoi visualizzare i panieri delle famiglie più vicine a te, con il dettaglio dei beni disponibili, poter eventualmente scegliere quello più utile alle tue necessità, e metterti quindi in contatto con il donatore per concordare il ritiro diretto dei beni stessi.</p>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">REGISTRATI</h5>
-                <p> Inserisci tutti i dati richiesti, per poi poter accedere al sito. Alla registrazione dovrai scegliere se rientri tra i donatori/beneficiari oppure se sei un Ente e/o associazione benefica. </p>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">REGISTRATI</h5>
+                 <p> Inserisci tutti i dati richiesti, per poi poter accedere al sito. Alla registrazione dovrai scegliere se rientri tra i donatori/beneficiari oppure se sei un Ente e/o associazione benefica. </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr class="divider-d">
-      <footer class="footer bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <p class="copyright font-alt">&copy; 2020&nbsp;AIUTIAMOCI, All Rights Reserved - BY
-                <a href="https://3EM.IT/" target="_blank" rel="nofollow">3EM GROUP  <img src="assets/images/shop/logo.png" style="width: 4rem; height: 4rem;"> </a></p>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2020&nbsp;AIUTIAMOCI, All Rights Reserved - BY
+                 <a href="https://3EM.IT/" target="_blank" rel="nofollow">3EM GROUP  <img src="assets/images/shop/logo.png" style="width: 4rem; height: 4rem;"> </a></p>
               </div>
-              
-            </div>
+             
           </div>
-        </footer>
-      </div>
-      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
-    </main>
-    <!--
-    JavaScripts
-    =============================================
-    -->
-    <script src="assets/lib/jquery/dist/jquery.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/lib/wow/dist/wow.js"></script>
-    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="assets/lib/smoothscroll.js"></script>
-    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyAdM6BLkzmhiwhQ91KszHQWdtV9URu_g&libraries=places&callback=initAutocomplete"
-    async defer></script>
-    <script>
-    function switchSel(val){
-    if(val){
-    document.getElementById('user').style.display = 'block';
-    document.getElementById('seller').style.display = 'none';
-    } else {
-    document.getElementById('user').style.display = 'none';
-    document.getElementById('seller').style.display = 'block';
-    }
-    }
-    function switchLog(val){
-    if(val){
-    document.getElementById('userLog').style.display = 'block';
-    document.getElementById('sellerLog').style.display = 'none';
-    } else {
-    document.getElementById('userLog').style.display = 'none';
-    document.getElementById('sellerLog').style.display = 'block';
-    }
-    }
-    function switchMain(val){
-    if(val){
-    document.getElementById('mainLogin').style.display = 'block';
-    document.getElementById('mainReg').style.display = 'none';
-    } else {
-    document.getElementById('mainLogin').style.display = 'none';
-    document.getElementById('mainReg').style.display = 'block';
-    }
-    }
-    function forgotPassword(){
-    console.log("passwordReset");
-    }
-    $( document ).ready(function() {
-    var link = window.location.href;
-    var str = link.split('=');
-    switch(str[1]){
-    case "1":
-    alert("Esiste già un account associato a questa mail.");
-    break;
-    case "2":
-    alert("Esiste gia un'attività con questo nome\noppure la mail è già associata ad un account");
-    break;
-    default:
-    break;
-    }
-    });
-    </script>
-    <script>
-    /*GoogleApiScript*/
-    var placeSearch, autocomplete, autocomplete2;
-    function initAutocomplete() {
-    autocomplete = new google.maps.places.Autocomplete(
-    (document.getElementById('indirizzo1')),{
-    types: ['geocode'],
-    componentRestrictions: { country: "it" }
-    });
-    autocomplete2 = new google.maps.places.Autocomplete(
-    (document.getElementById('indirizzo2')),
-    {
-    types: ['geocode'],
-    componentRestrictions: { country: "it" }
-    });
-    autocomplete.addListener('place_changed', fillInAddress);
-    autocomplete2.addListener('place_changed', fillInAddress2);
-    }
-    function fillInAddress() {
-    var place = autocomplete.getPlace();
-    if(place != undefined){
-    if (!place.geometry)
-    {
-    document.getElementById('userRegister').onsubmit = function() {onSubmitForm(event);}
-    } else {
-    document.getElementById('userRegister').onsubmit = function() {}
-    }
-    } else {
-    document.getElementById('userRegister').onsubmit = function() {onSubmitForm(event);}
-    }
-    }
-    function fillInAddress2() {
-    var place = autocomplete2.getPlace();
-    if(place != undefined){
-    if (!place.geometry)
-    {
-    document.getElementById('sellerRegister').onsubmit = function() {onSubmitForm(event);}
-    } else {
-    document.getElementById('sellerRegister').onsubmit = function() {}
-    }
-    } else {
-    document.getElementById('sellerRegister').onsubmit = function() {onSubmitForm(event);}
-    }
-    }
-    // var cityName = "Bacoli";
-    // document.addEventListener("DOMNodeInserted", function() {
-    //   $('.pac-container div').each(function() {
-    //     if($(this).text().toLowerCase().search(cityName.toLowerCase()) == "-1") {
-    //       $(this).hide();
-    //     }
-    //   });
-    // });
-    function onSubmitForm(e) {
-    e.preventDefault();
-    fillInAddress();
-    // document.getElementById('indirizzo1').value = "";
-    // document.getElementById('indirizzo2').value = "";
-    //alert('Selezionare un indirizzo dall\'elenco (SOLO COMUNE DI REESIDENZA)');
-    return false;
-    }
-    </script>
-  </body>
+        </div>
+      </footer>
+    </div>
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+  </main>
+  <!--
+  JavaScripts
+  =============================================
+  -->
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyAdM6BLkzmhiwhQ91KszHQWdtV9URu_g&libraries=places&callback=initAutocomplete"
+  async defer></script>
+  <script>
+  function switchSel(val){
+  if(val){
+  document.getElementById('user').style.display = 'block';
+  document.getElementById('seller').style.display = 'none';
+  } else {
+  document.getElementById('user').style.display = 'none';
+  document.getElementById('seller').style.display = 'block';
+  }
+  }
+  function switchLog(val){
+  if(val){
+  document.getElementById('userLog').style.display = 'block';
+  document.getElementById('sellerLog').style.display = 'none';
+  } else {
+  document.getElementById('userLog').style.display = 'none';
+  document.getElementById('sellerLog').style.display = 'block';
+  }
+  }
+  function switchMain(val){
+  if(val){
+  document.getElementById('mainLogin').style.display = 'block';
+  document.getElementById('mainReg').style.display = 'none';
+  } else {
+  document.getElementById('mainLogin').style.display = 'none';
+  document.getElementById('mainReg').style.display = 'block';
+  }
+  }
+  function forgotPassword(){
+  console.log("passwordReset");
+  }
+  $( document ).ready(function() {
+  var link = window.location.href;
+  var str = link.split('=');
+  switch(str[1]){
+  case "1":
+  alert("Esiste già un account associato a questa mail.");
+  break;
+  case "2":
+  alert("Esiste gia un'attività con questo nome\noppure la mail è già associata ad un account");
+  break;
+  default:
+  break;
+  }
+  });
+  </script>
+  <script>
+  /*GoogleApiScript*/
+  var placeSearch, autocomplete, autocomplete2;
+  function initAutocomplete() {
+  autocomplete = new google.maps.places.Autocomplete(
+  (document.getElementById('indirizzo1')),{
+  types: ['geocode'],
+  componentRestrictions: { country: "it" }
+  });
+  autocomplete2 = new google.maps.places.Autocomplete(
+  (document.getElementById('indirizzo2')),
+  {
+  types: ['geocode'],
+  componentRestrictions: { country: "it" }
+  });
+  autocomplete.addListener('place_changed', fillInAddress);
+  autocomplete2.addListener('place_changed', fillInAddress2);
+  }
+  function fillInAddress() {
+  var place = autocomplete.getPlace();
+  if(place != undefined){
+  if (!place.geometry)
+  {
+  document.getElementById('userRegister').onsubmit = function() {onSubmitForm(event);}
+  } else {
+  document.getElementById('userRegister').onsubmit = function() {}
+  }
+  } else {
+  document.getElementById('userRegister').onsubmit = function() {onSubmitForm(event);}
+  }
+  }
+  function fillInAddress2() {
+  var place = autocomplete2.getPlace();
+  if(place != undefined){
+  if (!place.geometry)
+  {
+  document.getElementById('sellerRegister').onsubmit = function() {onSubmitForm(event);}
+  } else {
+  document.getElementById('sellerRegister').onsubmit = function() {}
+  }
+  } else {
+  document.getElementById('sellerRegister').onsubmit = function() {onSubmitForm(event);}
+  }
+  }
+  // var cityName = "Bacoli";
+  // document.addEventListener("DOMNodeInserted", function() {
+  //   $('.pac-container div').each(function() {
+  //     if($(this).text().toLowerCase().search(cityName.toLowerCase()) == "-1") {
+  //       $(this).hide();
+  //     }
+  //   });
+  // });
+  function onSubmitForm(e) {
+  e.preventDefault();
+  fillInAddress();
+  // document.getElementById('indirizzo1').value = "";
+  // document.getElementById('indirizzo2').value = "";
+  //alert('Selezionare un indirizzo dall\'elenco (SOLO COMUNE DI REESIDENZA)');
+  return false;
+  }
+  </script>
+</body>
 </html>
